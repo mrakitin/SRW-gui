@@ -1,6 +1,5 @@
 # SRW-gui
-Prototype of the TkInter GUI for SRW. Should work out of the box with Python 2.7 (x64). For other Python versions you 
-will need to compile SRW and remove the following files:
+Prototype of the TkInter GUI for SRW. Should work out-of-the-box with Python 2.7 (x64) with the pre-installed PIL (`pip install pillow`). For other Python versions you will need to compile SRW and remove the following files:
 - [srwlib.py](srwlib.py)
 - [srwlpy.pyd](srwlpy.pyd)
 - [SRWLIB_ExampleViewDataFile.py](SRWLIB_ExampleViewDataFile.py)
