@@ -1,12 +1,11 @@
 # SRW-gui
 Prototype of the TkInter GUI for SRW. Should work out of the box with Python 2.7 (x64). For other Python versions you 
 will need to compile SRW and remove the following files:
-- srwlib.py
-- srwlpy.pyd
-- SRWLIB_ExampleViewDataFile.py
-- uti_plot.py
+- [srwlib.py](srwlib.py)
+- [srwlpy.pyd](srwlpy.pyd)
+- [SRWLIB_ExampleViewDataFile.py](SRWLIB_ExampleViewDataFile.py)
+- [uti_plot.py](uti_plot.py)
 
----
 ## Execution workflow:
 - Set up an optical scheme:
 ![](screenshots/screenshot_gui.png)
@@ -18,7 +17,7 @@ will need to compile SRW and remove the following files:
 ![](screenshots/screenshot_results.png)
 
 Console log:
-```cmd
+```
 C:\bin\mrakitin\SRW-gui>C:\Python27\python SRWSMI2.1KeV_CRLb.py
 
 ================================================================================
